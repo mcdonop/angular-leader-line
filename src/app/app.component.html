@@ -1,7 +1,26 @@
 
-<mat-card cdkDrag id="card-1" style="width: 55px; height: 55px;" (cdkDragMoved)="onMove1($event)">Simple card 1</mat-card>
+<mat-card cdkDrag id="card-1" (cdkDragMoved)="onMove1($event)" style="width: 200px;background-color: lightblue;">
+    <mat-card-title style="font-size: 12pt;">
+        <mat-icon>stream</mat-icon>
+        Job Engine Instance</mat-card-title>
+    <mat-card-subtitle>1232123132132312</mat-card-subtitle>
+    <mat-card-content> 
+        ip address: 1,12,,232<br>
+        host: w.dfa. dfasd.dfa.
+        </mat-card-content>
+ </mat-card>
+ <mat-card cdkDrag id="card-2" (cdkDragMoved)="onMove2($event)" style="width: 200px;background-color: lightblue;">
+    <mat-card-title style="font-size: 12pt;">
+        <mat-icon>stream</mat-icon>
+        Job Engine Instance</mat-card-title>
+    <mat-card-subtitle>1232123132132312</mat-card-subtitle>
+    <mat-card-content> 
+        ip address: 1,12,,232<br>
+        host: w.dfa. dfasd.dfa.
+        </mat-card-content>
+ </mat-card>
 <div style="height: 50px"><!-- JUST SOME SPACE --></div>
-<mat-card cdkDrag id="card-2" style="width: 55px; height: 55px;" (cdkDragMoved)="onMove2($event)">Simple card 2</mat-card>
+
 <div style="height: 50px"><!-- JUST SOME SPACE --></div>
 <mat-card cdkDrag id="card-99" style="width: 55px; height: 55px;" (cdkDragMoved)="onMove99($event)">Simple card 99</mat-card>
 
